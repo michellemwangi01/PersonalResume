@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="stylesheet" href="./PortfolioCss.css">
+   
+
+     <title>Portfolio</title>
+  </head>
+  <body class="body-bg">
+    <!-----------------navbarandbannerContainer---------------->
+    <div class="navbar navbarandbannerContainer">
+      <div class="navbar">
+        <div class="Portfolio">
+          <h1>Portfo<em>lio</em></h1>
+        </div>
+        <div class="navbarMenus">
+          <ul class="navbarMenusList">
+            <li> <a href="#navbar">Home</a> </li>
+            <li> <a href="#AboutMeContainer">About Me</a> </li>
+            <li> <a href="#skills">Skills</a> </li>
+            <li> <a href="#contactme">Contact Me</a> </li>
+          </ul>
+        </div>
+       
+      </div>
+      <div class="banner">
+        <div class="bannerText">
+          <p id="introText">Hello there, my name is</p>
+          <h1 class="myNameText">Michelle<em>Mwangi</em></h1>
+          <h2>and I'm a web Developer</h2>
+          <div class="newsletter">
+            <form action="input">
+              <input
+                type="email"
+                name="email"
+                id="mail"
+                placeholder="Enter your Email"
+              />
+              <input type="submit" name="submit" value="Subscribe" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-----------------------------------------------AboutMeContainer----------------------------------------------->
+    <div id="AboutMeContainer" class="middle-container-main">
+      <div class="middle-container">
+        
+          <h2>Hello.</h2>
+          <p>
+            Welcome to my page. <br> The one place where i can shamelessly boast.
+           <br> In fact, I'm required to boast, and boast I shall so as to earn your
+            trust! <br> I am a highly driven intelligent forward thinking young Kenyan developer who is passionate about software development.
+          </p>
+        </div>
+        <hr />
+        <div id="skills" class="skills">
+          <h2> Skills & Experience</h2>
+         
+        </div>
+        <hr />
+<!-------------------------------------------------------------ACCORDION--------------------------------->
+          
+        <div id="accordion" class="accordionContainer">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button id="accordionButton" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Front End Web developer
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <img
+            class="developerSkill accordionImage"
+            src="/WebDevelopment/IMAGES/webDevGuru.png"
+            style="width: 200px;"
+            alt=""
+
+          />
+                <p class="skillsText">
+                  I am a front end web developer competent in HTML, CSS, JS & REACT. I have built projects that are available on my Github page. 
+                  I would currently rate my skill level at intermediate. This is because I believe I can further perfect my skills thorugh more and more. All I
+                  need now is the experience that propel me into a professional. I learn fast and I am looking for the opportunity to use and perfect my skills.
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ICT Project Manager
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <img
+            class="projectManagerSkill accordionImage"
+              src="/WebDevelopment/IMAGES/projectManager.png"
+              alt=""
+              
+            />
+
+            <p class="skillsText">
+              I have been an IT project managemer for the past 5 years. I have managed ICT
+              projects in implementing Enterprise Software for various
+              organizations. Projects Handled with organizations such as: AMREF,
+              KSG, Anjarwalla & Khanna, The Nairobi Hospital, KPMG East Africa,
+              MTN etc. My main roles as PM included:
+              <ol>
+                <li>Enterprise Software & Implementation rollout projects for various clients
+                  including corporate, government & NGOs.</li>
+                  <li>Gained experience interacting with users and providing support</li>
+                  <li>Successfully delivering deployment and infrastructure projects for
+                    various organizations within agreed metrics of time and budgets</li>
+                  <li>Efficiently managed large teams comprising project resources, clients
+                    and other stakeholders</li>
+                  <li>Experience with understanding a variety of client needs and using our
+                    software to provide solutions</li>                  
+              </ol>
+            </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ICT Support Tech & System Admin
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <img
+                class="developerSkill accordionImage"
+                style="width: 200px;"
+                  src="/WebDevelopment/IMAGES/supportTech.png"
+                  alt=""
+                  
+                />
+                <p>I was involved in a wide range of services to support, fix, and maintain the hardware and software of an organization’s computer systems. This included installations, troubleshooting, testing, and helping to roll out security features, hardware and software maintenance as well as maintain networks and computer systems. 
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed skillsButtons" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Database Administrator
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFoure" data-parent="#accordion">
+              <div class="card-body">
+                <img
+            class="projectManagerSkill accordionImage"
+              src="/WebDevelopment/IMAGES/dbadmin2.png"
+              alt=""
+              
+            />
+                <p>I went ahead to specialize in database administrationn using SQL and Oracle. This included tasks such as: </p> 
+                  <ol>
+                    <li> working with database software to find ways to store, organise and manage data</li>
+                    <li> keeping databases up to date</li>
+                    <li> helping with database design and development</li>
+                    <li> liaising with programmers, applications/operational staff, IT project managers and other technical staff</li>
+                    <li> writing reports, documentation and operating manuals</li>
+                    <li> testing and modifying databases to ensure that they operate reliably</li>
+                    <li> providing user training, support and feedback</li>
+                  </ol>
+                
+                  
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+<!--------------------------------------------------------------EDUCATION---------------------------------------------->
+      <div class="skills">
+        <h2>Education</h2>
+      </div>
+      <hr />
+      <div class="educationContainer">
+
+        <div class="childEducation">
+          <p>
+            <h5>BSc. Computer Information Science</h5> 
+            <ol class="educationLists">
+              <li>Kenya Methodist University </li><br>
+              <li>First Class Honors</li><br>
+              <li>2021-2023</li>
+            </ol>
+          
+        </div>
+      
+        <div class="childEducation">
+          <p>
+            <h5>Diploma in Information Science</h5> 
+            <ol class="educationLists">
+              <li>Insitute of Advanced Technology </li><br>
+              <li>Mean Grade B</li><br>
+              <li>2014-2015</li>
+            </ol>
+        </div>
+
+        <div class="childEducation">
+          <p>
+            <h5>Professional Certifications - ITSM</h5>
+            <ol class="educationLists">
+            <!--<strong>Management Skills</strong>>-->
+              <li>PRINCE II Project Management Foundation & Practitioner Certifications</li>
+              <li>ITIL - IT service management Foundation & Practitioner Certifications</li>
+      
+        </div>
+
+        <div class="childEducation">
+        <!--<strong>Technical Skills</strong>--> 
+        <h5>Professional Certifications - Dev</h5>
+        <ol class="educationLists">
+          <li>Database Management with SQL Certification - Udemy</li>
+          <li>Python Programming Certification - Udemy</li>
+          <li>Microsoft Excel - Udemy</li>
+          <li>Web development (HTML, CSS, JS) - Udemy</li>
+        </ol>
+
+        </div>
+
+        <div class="childEducation">
+          <p>
+            <h5>High School Certificate</h5> 
+            <ol class="educationLists">
+              <li>Makini High School </li><br>
+              <li>Mean Grade B+</li><br>
+              <li>2009-2012</li>
+            </ol>
+
+        </div>
+
+        <div class="childEducation">
+          <p>
+            <h5>Primary School Certificate</h5> 
+            <ol class="educationLists">
+              <li>Tender Care Junior Academy </li><br>
+              <li>Mean Grade A</li><br>
+              <li>2001-2008</li>
+            </ol>
+            
+        </div>
+
+      </div>
+         
+
+          <hr />
+          
+ <!--------------------------------------------------------------CONTACTS---------------------------------------------->             
+
+      <div id="contactme" class="contact-me">
+          <h2>Get In Touch</h2>
+          <hr />
+          <h3 id="reachOut">Feel free to out to me so I can brag some more :)</h3>
+          <p>
+            For more information about me and the things I have done and achieved,
+            please view the links below.
+          </p>
+  
+          <div class="buttonDiv">
+            <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+          </div>
+        </div>
+      </div>
+  
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/" style="font-size: 1rem;">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/" style="font-size: 1rem;">Github</a>
+        <a class="footer-link" href="https://www.appbrewery.co/" style="font-size: 1rem;">Twitter</a>
+        <p class="copyright">© Mich Mwangi</p>
+      </div>
+    </div>
+   
+
+    <!--------------------------------------------------------------SCRIPTS---------------------------------------------->
+   <script src="/WebDevelopment/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+   <script
+   src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+   integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+   crossorigin="anonymous"
+ ></script>
+ <script
+   src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+   integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+   crossorigin="anonymous"
+ ></script>
+ <script
+   src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+   crossorigin="anonymous"
+ ></script>
+  </body>
+</html>

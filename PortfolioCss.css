@@ -1,0 +1,321 @@
+h3{
+    color: #ffbaba;
+}
+h5{
+    color:rgb(244, 107, 129);
+}
+hr{
+    border: dotted;
+    border-bottom: none;
+    width: 10%;
+    color: rgb(252, 39, 75);
+    margin: 50px auto;
+    border-width: 5px;
+}
+
+.educationLists{
+    list-style: none;
+}
+.accordionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    width: 90%;
+    
+}
+.skill-row{
+    width:70%;
+    margin: 30px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.skillsText{
+    width: 80%;
+    text-align: left;
+}
+.skill-row image{
+    width: 55%
+}
+
+.developerSkill{
+    width: 30%;
+    border-radius: 25%;
+   float: right;
+   
+   
+}
+.educationContainer{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin: 20px auto;
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    
+}
+.childEducation{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.projectManagerSkill{
+    width:30%;
+    border-radius: 25%;
+   float: left;
+   padding-right: 10px;
+   
+}
+
+#reachOut{
+    font-weight: normal;
+    text-align: center;
+}
+.ProjectManager{
+    width: 25%;
+    border-radius: 50%;
+   height: 150px;
+   width: 150px;
+   float: right;
+   padding-top: 20px;
+   margin-left: 20px;
+}
+
+#reachOut{
+    font-weight: normal;
+}
+.contact-me{
+    height: 100;
+}
+
+
+.btn {
+    background: rgb(252, 39, 75);
+    font-family: Georgia;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 5px auto;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    border: 1px solid rgb(246, 88, 115);
+    text-decoration: none;
+    color: rgb(252, 39, 75);
+
+  }
+
+  .bottom-container{
+    text-align: center;
+    margin: 10px 0 0 0;
+    background-color: rgb(252, 39, 75);
+    padding-bottom:16px;
+    padding-top: 25px;
+    color: white;
+    
+ }
+
+ .buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    margin: 20px 0;
+    height: 50px;
+    
+ }
+ a{
+    color: white;
+    margin: auto 10px;
+    text-decoration: none;
+    list-style: none;
+    
+ }
+
+ a:hover{
+    color: rgb(252, 39, 75);
+ }
+
+ .copyright{
+    color: whitesmoke;
+    font-size: 0.75rem;
+    padding: 10px;
+ }
+ #introText{
+    color: white;
+ }
+/*------------------------*/
+
+body{
+    
+    margin: 0;
+}
+
+.middle-container{
+    width: 80%;
+    margin: auto;
+    
+    text-align: center;
+}
+.navbarButton{
+    display: flex;
+}
+button{
+    width: 100%;
+    background-color: rgb(252, 39, 75);
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 20px;
+    color: white;
+    
+    
+}
+
+.navbarandbannerContainer{
+   height: fit-content;
+    background-position-x:90%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-image: url(/WebDevelopment/IMAGES/Gorgeous4_NB.png) ;
+    
+}
+.navbar{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    
+}
+.banner{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 50px 0px;
+    
+}
+.bannerText{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+}
+
+.navbarMenus{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+em{
+    color: white;
+    font-style: normal;
+}
+ ol{
+    font-size: 1.2rem;
+    padding-left: 10px;
+    list-style-type: lower-roman;
+   color: white;
+    list-style-position: inside;
+ }
+ul{
+    list-style: none;
+}
+ .navbarMenusList{
+    display:list-item;
+    display: inline-flex;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+li:hover{
+    color: rgb(252, 39, 75);
+   
+}
+h1, h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 39, 75);
+    margin: 10px;
+    
+}
+p{
+    font-size: 1.2rem;
+    color:white;
+    text-align: center;
+    margin: 0;
+}
+
+
+.myImage{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 500px;
+    background-color: transparent;
+}
+.myNameText{
+    font-size:4rem;
+    font-family: georgia;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    font-weight:550;
+}
+form{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.newsletter {
+    display: flex;
+    align-content: center;
+    margin: auto;
+    width: 100%
+     
+   
+}
+
+
+.newsletter form input:first-child{
+   
+    height: 37px;
+    width: 60%;
+    border-radius: 25px;
+    border: 2px solid rgb(252, 39, 75);
+}
+.newsletter form input:last-child{
+    height: 37px;
+    width: 20%;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(252, 39, 75);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    
+    
+}
+.newsletter form input:last-child:hover{
+    border: 2px solid rgb(230, 81, 131);
+    background-color: white;
+    color:  rgb(252, 39, 75);
+}
+::placeholder {
+    padding-left: 1px;
+    font-size: 1rem;
+    color: black;
+}
