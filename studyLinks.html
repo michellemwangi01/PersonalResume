@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="studyLinks.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+  
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides((slideIndex += n));
+        }
+  
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides((slideIndex = n));
+        }
+  
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1;
+          }
+          if (n < 1) {
+            slideIndex = slides.length;
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+    </script>
+  </head>
+
+  <body>
+    <!-- <p>
+        What is C++? <br />
+        C++ is a cross-platform language that can be used to create
+        high-performance applications. C++ was developed by Bjarne Stroustrup,
+        as an extension to the C language. C++ gives programmers a high level of
+        control over system resources and memory. The language was updated 4
+        major times in 2011, 2014, 2017, and 2020 to C++11, C++14, C++17, C++20.
+        Why Use C++ C++?Why Use C++ C++? Difference between C and C++.C++ was
+        developed as an extension of C, and both languages have almost the same
+        syntax. The main difference between C and C++ is that C++ support
+        classes and objects, while C does not.
+      </p> -->
+
+    <div class="myBootNav">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">C / C++ Full Course</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="introDiv">
+      <h2>Introduction to C</h2>
+      <p>
+        Get an overview of the C language in the brief video below and then move
+        on to a more detailed course work below.
+      </p>
+
+      <div class="embeddedVideo">
+        <iframe
+          width="860"
+          height="415"
+          src="https://www.youtube.com/embed/ZzaPdXTrSb8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="curriculum">
+        <table class="table table-hover table-striped">
+            <thead>
+                
+                    <th id="tableHeading" colspan="3">Course Curriculum (Beginner to Pro)</th>
+               
+            </thead>
+            <thead >
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Level Name</th>
+                <th scope="col">Content</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Essential C and C++ Concepts</td> 
+                <td><ul>
+                    <li>Array Basics</li>
+                    <li>Structures</li>
+                    <li>Pointers</li>
+                    <li>References</li>
+                    <li>Pointers to Structures</li>
+                </ul></td>
+
+
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Required Setup</td>
+                <td><ul>
+                    <li>Setup Dev c++</li>
+                    <li>Setup CodeBlocks</li>
+                    <li>Setup XCode</li>
+                    <li>Setup VSCode</li>
+                </ul></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Introduction</td>
+                <td><ul>
+                    <li>Stack vs Heap memory</li>
+                    <li>Physical vs Logical DS</li>
+                    <li>Time and Space Complexity</li>
+                    
+                </ul></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Recursion</td>
+                <td><ul>
+                    <li>How recursion works</li>
+                    <li>Generalising recursion</li>
+                    <li>Recurrence relation</li>
+                    <li>Static & Global Variables in Recursion</li>
+                    <li>Tail recursion</li>
+                    <li>Head recursion</li>
+                    
+                </ul></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Array Representations</td>
+                <td><ul>
+                    <li>Declarations of arrays</li>
+                    <li>Static vs Dynamic arrays</li>
+                    <li>Increasing array sizes</li>
+                    <li>2D arrays</li>
+                    <li>Row major array formula</li>
+                    <li>Multidimensional Arrays</li>
+                    
+                </ul></td>
+              </tr>
+              
+            </tbody>
+          </table>
+    </div>
+    
+    <div class="courseWorkVideos">
+      <h2 id="courseWorkText">C language Course Videos</h2>
+    </div>
+    <div>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides ">
+          <div class="numbertext">1 / 5</div>
+          <div class="myVideoDiv">
+            <video width="70%" controls>
+              <source
+                src="/2. Essential C and C++ Concepts/1. Arrays Basics.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div class="text">Array Basics</div>
+          </div>
+        </div>
+
+        <div class="mySlides ">
+          <div class="numbertext">2 / 5</div>
+          <div class="myVideoDiv">
+            <video width="70%" controls>
+              <source
+                src="/2. Essential C and C++ Concepts/2. Structures.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div class="text">Structures</div>
+          </div>
+        </div>
+
+        <div class="mySlides ">
+          <div class="numbertext">3 / 5</div>
+          <div class="myVideoDiv">
+            <video width="70%" controls>
+              <source
+                src="/2. Essential C and C++ Concepts/3. Pointers.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div class="text">Pointers</div>
+          </div>
+        </div>
+
+        <div class="mySlides ">
+          <div class="numbertext">4 / 5</div>
+          <div class="myVideoDiv">
+            <video width="70%" controls>
+              <source
+                src="/2. Essential C and C++ Concepts/4. Reference in C++.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div class="text">References in c++</div>
+          </div>
+        </div>
+
+        <div class="mySlides ">
+          <div class="numbertext">5 / 5</div>
+          <div class="myVideoDiv">
+            <video width="70%" controls>
+              <source
+                src="/2. Essential C and C++ Concepts/5. Pointer to Structure.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div class="text">Pointers to Structures</div>
+          </div>
+        </div>
+        
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+    
+  </body>
+</html>
